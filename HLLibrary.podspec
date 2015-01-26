@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HLLibrary"
-  s.version          = "0.1.0"
+  s.version          = "0.1.2"
   s.summary          = "Hailin's private library'"
   s.description      = <<-DESC
                        + some useful tools and utils for my projects
