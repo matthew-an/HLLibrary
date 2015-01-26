@@ -10,18 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "HLLibrary"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HLLibrary."
+  s.summary          = "Hailin's private library'"
   s.description      = <<-DESC
-                       An optional longer description of HLLibrary
+                       + some useful tools and utils for my projects
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/HLLibrary"
+  s.homepage         = "https://github.com/matthew-an/HLLibrary"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "matthew" => "an.thomas.an@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/HLLibrary.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/matthew-an/HLLibrary.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -34,5 +32,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'AFNetworking', '~> 2.3'
 end
