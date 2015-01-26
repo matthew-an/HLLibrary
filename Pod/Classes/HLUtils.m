@@ -12,4 +12,10 @@
 + (NSString *)hello {
     return @"hello, world";
 }
+
++ (NSString *)world {
+    return @"hello, world";
+}
+
+
 @end
