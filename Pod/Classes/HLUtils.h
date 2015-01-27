@@ -11,4 +11,5 @@
 @interface HLUtils : NSObject
 + (NSString *)hello;
 + (NSString *)world;
++ (NSString *)world3;
 @end
